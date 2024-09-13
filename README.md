@@ -12,7 +12,7 @@
 
 ### 数据集
 
-训练数据来自[web of science](https://www.webofscience.com/wos/woscc/basic-search)提供的论文摘要。[Web of Science Core Collection](https://webofscience.help.clarivate.com/Content/wos-core-collection/wos-core-collection.htm)中的Subject Categories提供了学科类别，每篇论文已经打上了学科标签。对每个学科，按照与学科的相关性由高到低排序，下载前10万篇论文的信息，少数冷门学科总论文数不到10万篇。论文信息包含标题、摘要、关键词、作者等。最终整理出包含233个学科的json文件，在压缩文件[wos_json.rar](https://huggingface.co/datasets/lzy0928/wos_json)中，解压文件：
+训练数据来自[web of science](https://www.webofscience.com/wos/woscc/basic-search)提供的论文摘要。[Web of Science Core Collection](https://webofscience.help.clarivate.com/Content/wos-core-collection/wos-core-collection.htm)中的Subject Categories提供了学科类别，每篇论文已经打上了学科标签。对每个学科，按照与学科的相关性由高到低排序，下载前10万篇论文的信息，少数冷门学科总论文数不到10万篇。论文信息包含标题、摘要、关键词、作者等。最终整理出包含233个学科的json文件，在压缩文件wos_json.rar中，解压文件：
 
     unrar x wos_json.rar
 
